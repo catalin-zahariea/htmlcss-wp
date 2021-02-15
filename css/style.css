@@ -40,6 +40,11 @@ h2 {
     font-weight: 600;
 }
 
+h4 {
+    margin: 25px 0 15px 0;
+    font-size: 16px;
+}
+
 .text-body {
     font-size: 14px;
     color: grey;
@@ -104,6 +109,12 @@ nav a {
     font-size: 16px;
 }
 
+nav a:hover {
+    font-weight: 600;
+    color: salmon;
+    text-shadow: 1px 1px 1px black;
+}
+
 /* HEADER END */
 
 /* MAIN */
@@ -118,6 +129,7 @@ main {
 
 .col {
     float: left;
+    text-align: justify;
 }
 
 .col-edge {
@@ -126,8 +138,8 @@ main {
 }
 
 .col-center {
-    width: calc(60% - 20px);
-    margin: 0 10px 10px 10px;
+    width: calc(60% - 40px);
+    margin: 0 20px 10px 20px;
 }
 
 .main-img {
