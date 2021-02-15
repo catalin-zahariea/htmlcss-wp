@@ -27,8 +27,7 @@ img {
 .overlay {
     width: 100%;
     height: 100%;
-    background-color: #000000;
-    opacity: 0.2;
+    background-color: rgba(0, 0, 0, 0.25);
     position: absolute;
 }
 
@@ -55,12 +54,6 @@ h2 {
     content: "";
     display: table;
     clear: both;
-}
-
-.page-footer {
-    height: 100px;
-    background-color: #8802FE;
-    margin: 0 0 10px 0;
 }
 
 /* COMMON END */
@@ -125,8 +118,6 @@ main {
 
 .col {
     float: left;
-    background-color: #ABCFE6;
-    height: 400px;
 }
 
 .col-edge {
@@ -138,4 +129,19 @@ main {
     margin: 0 10px 10px 10px;
 }
 
+.main-img {
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+}
+
 /* MAIN END */
+
+/* FOOTER */
+
+footer {
+    margin: 25px 0;
+    text-align: center;
+}
+
+/* FOOTER END */
